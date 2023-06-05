@@ -429,7 +429,7 @@ if [ -f $MY_TMP_FILE ]; then
         echo "#########################################################"		
 		if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
-		else
+
 			init 4; sleep 4; init 3;
 		fi
 
