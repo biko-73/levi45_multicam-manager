@@ -1,12 +1,12 @@
 # levi45_multicam-manager
 
+plugin by levi45
+
 <img src="https://i.ibb.co/1Mjv0jx/image.png" alt="image" border="0">
 
 All thanks goes to Lululla for codes and helping, continuously to bring this plugin to live
 
 This plugin comparable with PY2 and PY3 , also compatible with any enigma2 boxes with any image .
-
-All thanks goes to my very good friend lululla for allowing me to use his code and helping me continuously to bring this plugin to live.
 
 what you can do with levi45 multicam manager
 
