@@ -392,8 +392,8 @@ MY_TMP_FILE="/tmp/"$MY_FILE
 
 rm -f $MY_TMP_FILE > /dev/null 2>&1
 
-if file_exists(oldplug1)
-rm -rf %s > /dev/null 2>&1" % oldplug1
+if file_exists(oldplug)
+rm -rf %s > /dev/null 2>&1" % oldplug
 oldplug1 = '/usr/lib/enigma2/python/Plugins/Extensions/Manager/emu'
 
 
@@ -429,10 +429,10 @@ if [ -f $MY_TMP_FILE ]; then
         echo "#########################################################"		
 		if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
-
+		else
 			init 4; sleep 4; init 3;
 		fi
-
+	else
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
 	fi;
 	echo ''
