@@ -392,8 +392,8 @@ MY_TMP_FILE="/tmp/"$MY_FILE
 
 rm -f $MY_TMP_FILE > /dev/null 2>&1
 
-if file_exists(oldplug):
-rm -rf %s > /dev/null 2>&1" % oldplug
+if file_exists "oldplug"
+rm -rf %s > /dev/null 2>&1" % oldplug1
 oldplug1 = '/usr/lib/enigma2/python/Plugins/Extensions/Manager/emu'
 
 
