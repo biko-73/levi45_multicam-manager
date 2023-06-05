@@ -432,7 +432,7 @@ if [ -f $MY_TMP_FILE ]; then
 		else
 			init 4; sleep 4; init 3;
 		fi
-	else
+
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
 	fi;
 	echo ''
