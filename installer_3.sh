@@ -391,10 +391,7 @@ MY_URL="http://levi45.spdns.eu/Addons/Multicam/Levi45MulticamManager/10/Manager.
 MY_TMP_FILE="/tmp/"$MY_FILE
 
 rm -f $MY_TMP_FILE > /dev/null 2>&1
-
-if file_exists(oldplug)
-rm -rf %s > /dev/null 2>&1" % oldplug
-oldplug1 = '/usr/lib/enigma2/python/Plugins/Extensions/Manager/emu'
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Manager/emu
 
 
 MY_SEP='============================================================='
